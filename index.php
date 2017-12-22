@@ -14,6 +14,7 @@ $application->add(new \KrakenApi\Command\Order\CancelCommand());
 $application->add(new \KrakenApi\Command\Order\AddCommand());
 $application->add(new \KrakenApi\Command\BalanceCommand());
 $application->add(new \KrakenApi\Command\TickerCommand());
+$application->add(new \KrakenApi\Command\OrderBookCommand());
 $application->add(new \KrakenApi\Command\Asset\InfoCommand());
 $application->add(new \KrakenApi\Command\Asset\PairsCommand());
 
