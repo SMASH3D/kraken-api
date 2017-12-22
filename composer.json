@@ -1,0 +1,13 @@
+{
+    "name": "krakenapi/client",
+    "type": "application",
+    "description": "Client for the Kraken API",
+    "require": {
+        "payward/kraken-api-client": "dev-master",
+        "symfony/console": "^3.4",
+        "symfony/yaml": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {"KrakenApi\\": "src/"}
+    }
+}
